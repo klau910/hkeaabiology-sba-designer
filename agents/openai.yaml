@@ -1,0 +1,14 @@
+interface:
+  display_name: Biology SBA Designer
+  short_description: Design Biology SBA tasks with aligned marking rubrics
+  default_prompt: Use $biology-sba-designer to plan a Biology SBA task from the official
+    handbook and develop questions one at a time.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
